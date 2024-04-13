@@ -1,0 +1,1075 @@
+@font-face {
+  font-family: 'NeueHaas Normal';
+  src: url('../fonts/NeueHaasDisplayMediu.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  background: url('../images/body.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+.preloader_wrap {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+a.card_link {
+  text-decoration: none !important;
+}
+.preloader {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #0190ff;
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.5s ease;
+  z-index: 99999999999999;
+}
+
+.preloader_inner {
+  margin: auto;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  font-size: 6vw;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 8px;
+  display: block;
+  line-height: 1em;
+}
+h1.logo_loader {
+  font-family: 'Darumadrop One';
+  color: #fff;
+  font-size: 78px;
+}
+.preloader.hide {
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
+.preloader img {
+  max-width: 145px;
+  display: block;
+  margin: 0 auto;
+}
+
+.progress-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  background-color: #182022;
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  max-width: 1600px !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+.nav-link {
+  font-family: 'Darumadrop One', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff !important;
+  font-size: 30px !important;
+}
+.main_header {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.logo {
+  width: 25%;
+}
+.menu {
+  width: 50%;
+}
+.login_btn {
+  width: 25%;
+}
+.logo img {
+  width: 80%;
+}
+div#navbarNav {
+  justify-content: center;
+}
+ul.navbar-nav {
+  gap: 46px;
+}
+
+.login_detail img {
+  width: 18%;
+}
+.login_btn {
+  display: flex;
+  gap: 0px;
+  align-items: center;
+  justify-content: end;
+}
+a.transperent_button {
+  padding: 10px 30px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: solid 4px #0190ff;
+  font-family: 'Poppins', sans-serif;
+}
+a.transperent_button {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+a.transperent_button img {
+  width: 100%;
+  height: 50%;
+}
+.login_detail img {
+  width: 65%;
+}
+header {
+  padding-top: 30px;
+}
+
+/*dukonomics css*/
+
+.banner {
+  background: url(../images/banner_main.png);
+  background-size: 60% 100%;
+  background-repeat: no-repeat;
+  padding: 350px 0px 100px 0px;
+}
+section.banner {
+  margin-top: -210px;
+}
+h1.main_heading_white {
+  color: #fff;
+  font-size: 145px;
+  font-family: 'Darumadrop One';
+  text-transform: uppercase;
+  line-height: 0.9em;
+  font-weight: 600;
+  letter-spacing: -4px;
+}
+p.para_style {
+  color: #fff;
+  font-size: 33px;
+  padding: 46px 0px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+div#desktop_duko {
+  padding-top: 150px;
+}
+.main_banner_img img {
+  width: 115%;
+  margin-top: -80px;
+}
+span.sub_color_heading_1 {
+  color: #0190ff;
+}
+.foot_print_banenr_img img {
+  width: 43%;
+  margin-top: -118px;
+  position: relative;
+}
+.foot_print_banenr_img {
+  text-align: center;
+  margin-left: 60px;
+}
+a.grad_btn_trans {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Darumadrop One';
+  padding: 25px 47px;
+  border-radius: 5px;
+  background: linear-gradient(to right, #00ffa3, #dc1fff);
+}
+.social_icon {
+  padding-top: 100px;
+  display: flex;
+  gap: 40px;
+}
+section.dukonomics {
+  padding: 100px 0px;
+}
+.table_contract {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  height: 100%;
+}
+.contract_cards {
+  background: #fd7e01;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contract_cards span {
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.marque_2 marquee {
+  color: #fff;
+}
+.contract_cards h2 {
+  color: #fff;
+  font-size: 37px;
+  font-weight: 800;
+  padding-top: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+h1.main_heading_white.main_duko_heading {
+  padding-bottom: 80px;
+}
+.contract_img img {
+  width: 100%;
+  height: 100%;
+}
+.marque_1 {
+  background: #fff;
+  padding: 10px 0px;
+  font-size: 50px;
+  font-weight: 800;
+  font-family: 'Darumadrop One';
+  transform: skewY(5deg);
+  z-index: 9999999;
+}
+.marque_2 {
+  background: #fd7e01;
+  padding: 10px 0px;
+  font-size: 50px;
+  font-weight: 800;
+  font-family: 'Darumadrop One';
+  transform: skewY(-6deg);
+}
+section.marquee_section {
+  padding: 150px 0px;
+}
+section.about_duko h1.main_heading_white {
+  padding-bottom: 90px;
+}
+section.about_duko {
+  padding-top: 200px;
+  background-image: url('../images/banner_img2.webp');
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.about_duko_img img {
+  width: 100%;
+}
+span.sub_title_about {
+  color: #fd7e01;
+}
+
+p.about_us_para {
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+p.about_us_para span {
+  font-weight: 800;
+}
+h3.feel_good {
+  color: #fd7e01;
+  /* color: #fff; */
+  font-size: 115px;
+  font-family: 'Darumadrop One';
+  text-transform: uppercase;
+  line-height: 0.9em;
+  font-weight: 600;
+  letter-spacing: -4px;
+  padding-top: 50px;
+}
+.feel_good_img img {
+  width: 100%;
+}
+#feel_col {
+  background: url('../images/bone.webp');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto;
+  height: 100%;
+}
+.row.main_feel_row {
+  padding-top: 150px;
+}
+.donation {
+  color: #fd7e01;
+  font-size: 145px;
+  font-family: 'Darumadrop One';
+  text-transform: uppercase;
+  line-height: 0.9em;
+  font-weight: 600;
+  letter-spacing: -4px;
+}
+div#donate {
+  padding: 100px 0px;
+}
+.total_dona {
+  display: flex;
+  background: #7852b0;
+  padding: 50px 30px;
+  border-radius: 40px;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+.total_div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.total_dona h3 {
+  font-size: 36px;
+  color: #fff;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+.total_div h3 {
+  font-size: 72px;
+}
+section.donation_main {
+  padding: 150px 0px;
+  padding-bottom: 0px;
+}
+.verification_logo {
+  justify-content: center;
+}
+.cart_main {
+  background: #fd7e01;
+  border-radius: 40px;
+  padding: 40px 0px 0px 0px;
+}
+.card_head {
+  padding: 0px 40px;
+}
+.card_foot {
+  background: #7852b0;
+  padding: 40px;
+  padding-bottom: 0px;
+}
+.main_header_card {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.main_header_card img {
+  border-radius: 50px;
+  height: 70px;
+  width: 70px !important;
+}
+h2.title {
+  font-size: 35px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+span.date {
+  font-size: 21px;
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+h1.body_detail_content {
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+  padding: 0px 0px 27px 0px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+span.date__footer {
+  font-size: 21px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+h1.body_detail_content_footer {
+  color: #fff;
+  font-weight: 500;
+  font-size: 52px;
+  padding: 0px 0px 27px 0px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+h1.body_detail_content_right_footer {
+  color: #fff;
+  font-weight: 500;
+  font-size: 39px;
+  padding: 0px 0px 27px 0px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+.card_foot {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.main_image_verify img {
+  width: 100%;
+}
+.verifcation_section {
+  background-image: url(../images/verify.webp);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+div#main_verify {
+  padding-left: 50px;
+}
+.verification_logo h4 span {
+  color: #2bd7b0;
+}
+.verification_logo h4 {
+  font-size: 45px;
+  font-weight: 600;
+  font-family: 'Poppins';
+}
+.verification_logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+}
+div#main_verify h2 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 70px;
+  font-family: 'Poppins';
+  text-align: center;
+}
+footer {
+  background-image: url(../images/joinduko.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: left;
+  position: relative;
+  padding: 160px 0px 90px 0px;
+}
+
+/* button style */
+
+.rainbow-btn {
+  margin: 0px;
+  width: 300px;
+  text-align: center;
+  position: relative;
+  color: #ffffff !important;
+  text-decoration: none;
+  border-radius: 6px;
+  box-sizing: border-box;
+  display: block;
+  z-index: 2;
+  overflow: hidden;
+  padding: 4px;
+  height: 90px;
+  border-radius: 50px;
+  text-decoration: none !important;
+  font-family: 'Darumadrop One';
+}
+.about_btn {
+  padding-top: 30px;
+}
+.rainbow-btn:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(115deg, #fd7e01, #fd7e01, #fd7e01);
+  background-size: 50% 100%;
+}
+.rainbow-btn span:hover .rainbow-btn:before {
+  background-color: transparent !important;
+}
+.rainbow-btn span:hover {
+  background-color: transparent !important;
+}
+.rainbow-btn span {
+  position: relative;
+  z-index: 2;
+  padding: 0.875rem 0;
+  font-size: 1.1rem;
+  text-decoration: none;
+  align-items: center;
+  background: linear-gradient(115deg, #fd7e01, #fd7e01, #fd7e01);
+  border-radius: 50px;
+  display: block;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 30px;
+  font-family: 'Darumadrop One';
+}
+.rainbow-btn:focus:before,
+.rainbow-btn:hover:before {
+  animation: rainbow-btn 0.75s linear infinite;
+  background-color: transparent !important;
+}
+
+@keyframes rainbow-btn {
+  to {
+    transform: translateX(-50%);
+  }
+}
+.about_btn {
+  display: flex;
+  gap: 30px;
+}
+
+/* footer::before {
+    content: "";
+    background-image: url(../images/rightfoot.png);
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: left;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  } */
+.footer_image img {
+  width: 95%;
+}
+.transperent_button_btn span {
+  background: #0190ff;
+}
+.transperent_button_btn_1 span {
+  background: #0190ff;
+}
+footer .social_icon {
+  display: flex;
+  gap: 40px;
+  padding-bottom: 100px;
+}
+footer .social_icon img {
+  width: 45px;
+  height: 45px;
+}
+.copyright {
+  font-size: 40px;
+  font-family: poppins;
+  color: #0190ff;
+}
+div#mobile_duko {
+  display: none;
+}
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+  display: block !important;
+}
+button.owl-dot.active {
+  width: 20px;
+  height: 20px;
+  border: solid 2px #25d9b2 !important;
+  border-radius: 50px;
+  opacity: 1;
+  background: #25d9b2 !important;
+}
+button.owl-dot {
+  width: 18px;
+  height: 18px;
+  border: solid 2px #25d9b2 !important;
+  border-radius: 50px;
+  background: #25d9b2 !important;
+  opacity: 0.5;
+}
+.owl-dots {
+  display: flex;
+  gap: 11px;
+  justify-content: center;
+  padding: 50px 0px;
+  align-items: center;
+}
+div#banner_social_mobile {
+  justify-content: center;
+  display: none;
+}
+img.footer_image_mobile {
+  display: none;
+}
+
+@media (max-width: 1820px) {
+  h1.main_heading_white {
+    font-size: 110px;
+  }
+}
+
+@media (max-width: 1390px) {
+  h1.main_heading_white {
+    font-size: 88px;
+  }
+  p.para_style {
+    font-size: 24px;
+  }
+  div#desktouko {
+    display: none;
+  }
+  div#mobile_duko {
+    display: flex;
+  }
+  p.about_us_para {
+    font-size: 19px;
+  }
+  h1.main_heading_white {
+    font-size: 64px;
+  }
+  section.about_duko h1.main_heading_white {
+    padding-bottom: 20px;
+  }
+  h3.feel_good {
+    font-size: 70px;
+  }
+  .donation {
+    font-size: 88px;
+  }
+  .total_dona h3 {
+    font-size: 27px;
+  }
+  .total_div h3 {
+    font-size: 31px;
+  }
+  .total_div img {
+    width: 24%;
+  }
+  .total_div {
+    justify-content: end;
+  }
+  div#main_verify h2 {
+    font-size: 46px;
+  }
+  .verification_logo h4 {
+    font-size: 30px;
+  }
+  .verification_logo img {
+    width: 12%;
+  }
+  h2.title {
+    font-size: 20px;
+  }
+  .main_header_card img {
+    height: 40px;
+    width: 40px !important;
+  }
+  span.date {
+    font-size: 13px;
+  }
+  h1.body_detail_content {
+    font-size: 20px;
+  }
+  .main_header_card {
+    padding-bottom: 30px;
+  }
+  h1.body_detail_content_footer {
+    font-size: 25px;
+  }
+  span.date__footer {
+    font-size: 11px;
+  }
+  h1.body_detail_content_right_footer {
+    font-size: 21px;
+  }
+  .nav-link {
+    font-size: 21px !important;
+  }
+  .table_contract {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    background-size: cover;
+  }
+  .contract_img {
+    padding-bottom: 30px;
+  }
+  .social_link img {
+    width: 40px;
+    height: 40px;
+  }
+  div#mobile_duko .col-lg-6 {
+    padding: 0px;
+  }
+  .marquee-content li {
+    font-size: 32px !important;
+    white-space: nowrap;
+  }
+  div#feel_col h1.main_heading_white {
+    color: #fff;
+    font-size: 44px;
+    font-weight: 500;
+  }
+  .grad_btn_main {
+    text-align: center;
+    margin: 0px 70px;
+  }
+  p.para_style {
+    font-size: 16px;
+    padding: 26px 0px;
+  }
+  .banner {
+    background-size: 100% 72%;
+    background-repeat: no-repeat;
+    padding: 300px 0px 0px 0px;
+    background-image: url(../images/bannermobile.png);
+  }
+  .verification_logo h4 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Poppins';
+  }
+  h1.main_heading_white {
+    color: #fff;
+    font-size: 57px;
+    padding: 50px 0px;
+    text-align: center;
+  }
+  .donation {
+    color: #fd7e01;
+    font-size: 57px;
+  }
+  .rainbow-btn {
+    width: 100%;
+  }
+  .foot_print_banenr_img img {
+    /* width: 100%; */
+    width: 71%;
+    margin-top: -69px;
+    position: relative;
+    margin-left: 85px;
+  }
+  .social_icon {
+    padding-top: 60px;
+  }
+  section.dukonomics {
+    padding: 0px;
+  }
+  h1.main_heading_white.main_duko_heading {
+    padding-bottom: 0px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  div#mobile_duko {
+    padding: 50px 00px !important;
+  }
+  section.about_duko {
+    padding-top: 160px;
+    background-image: url(../images/banner_img2.webp);
+    background-repeat: no-repeat;
+    background-position: 53% 0%;
+    background-size: 61%;
+  }
+  .about_duko_img {
+    padding: 20px;
+  }
+  p.about_us_para {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+  }
+  .marque_2 {
+    padding: 20px 0px;
+    font-size: 34px;
+    overflow-x: hidden;
+  }
+  .marque_1 {
+    padding: 20px 0px;
+    font-size: 34px;
+    overflow-x: hidden;
+  }
+  section.about_duko h1.main_heading_white {
+    padding-bottom: 0px;
+    text-align: center;
+  }
+  .rainbow-btn {
+    padding: 4px;
+    height: 70px;
+  }
+  .rainbow-btn span {
+    font-size: 20px;
+  }
+  h3.feel_good {
+    color: #fd7e01;
+    font-size: 44px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  #feel_col {
+    background: url(../images/bone.webp);
+    background-repeat: no-repeat;
+    background-size: 64%;
+    background-position: 50%;
+    margin: auto;
+    height: 100%;
+  }
+  div#donate {
+    padding: 50px 0px;
+  }
+  footer .container {
+    padding: 0px !important;
+  }
+  section.donation_main {
+    padding: 50px 0px !important;
+  }
+  h1.donation {
+    padding-bottom: 60px;
+    text-align: center;
+  }
+  .total_div img {
+    width: 22%;
+  }
+  .total_div h3 {
+    font-size: 50px;
+    margin: 0px;
+  }
+  h2.title {
+    font-size: 24px;
+  }
+  h1.body_detail_content {
+    font-size: 25px;
+  }
+  span.date {
+    font-size: 14px;
+  }
+  h1.body_detail_content_footer {
+    font-size: 35px;
+    padding: 0px 0px 17px 0px;
+  }
+  span.date__footer {
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  h1.body_detail_content_right_footer {
+    color: #fff;
+    font-weight: 500;
+    font-size: 27px;
+    padding: 0px 0px 27px 0px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+  }
+
+  .main_banner_img img {
+    width: 100%;
+    margin-top: 0px;
+  }
+  div#banner_social_desktop {
+    display: none;
+  }
+  div#banner_social_mobile {
+    justify-content: center;
+    display: flex !important;
+  }
+  div#desktop_duko {
+    display: none;
+  }
+  div#mobile_duko {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 40px;
+    padding: 50px;
+  }
+  .table_contract {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    height: auto;
+  }
+  section.marquee_section {
+    padding-top: 0px;
+  }
+  .contract_img img {
+    width: 100%;
+    height: auto;
+  }
+  .total_div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .total_dona {
+    flex-direction: column;
+    /* padding: 30px 0px; */
+  }
+  div#main_verify {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .total_dona {
+    align-items: flex-start;
+  }
+  .verifcation_section .row {
+    flex-direction: column-reverse;
+  }
+  footer .col-lg-12 {
+    padding: 0px;
+  }
+  footer .col-lg-12 {
+    padding: 0px;
+  }
+  .copyright {
+    font-size: 26px;
+    font-family: poppins;
+    color: #0190ff;
+    text-align: center;
+  }
+  footer .social_icon img {
+    width: 40px;
+    height: 40px;
+  }
+  footer .social_icon {
+    padding-top: 40px;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 40px;
+    justify-content: center;
+  }
+  .main_image_verify {
+    padding-top: 171px;
+  }
+  a.transperent_button {
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: solid 4px #0190ff;
+    font-family: 'Poppins', sans-serif;
+  }
+  .logo {
+    width: 50%;
+  }
+  div#main_verify h2 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Poppins';
+  }
+  .verification_logo img {
+    width: 16%;
+  }
+
+  div#main_verify {
+    text-align: center;
+  }
+  .verification_logo {
+    justify-content: center;
+  }
+  img.footer_image_mobile {
+    display: block;
+  }
+  img.footer_image_desktop {
+    display: none;
+  }
+  .footer_image img {
+    width: 100%;
+  }
+  footer {
+    background-image: url(../images/rightfoot.png);
+
+    padding: 100px 0px 0px 0px;
+  }
+}
+
+/* 
+  marquee style */
+:root {
+  --marquee-width: 100vw;
+  --marquee-height: 20vh;
+  /* --marquee-elements: 12; */ /* defined with JavaScript */
+  --marquee-elements-displayed: 5;
+  --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
+  --marquee-animation-duration: calc(var(--marquee-elements) * 3s);
+}
+
+.marquee {
+  position: relative;
+}
+.marquee-content {
+  list-style: none;
+  display: flex;
+  animation: scrolling var(--marquee-animation-duration) linear infinite;
+  /* overflow-x: hidden; */
+}
+/* .marquee-content:hover {
+    animation-play-state: paused;
+  } */
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-1 * var(--marquee-element-width) * var(--marquee-elements)));
+  }
+}
+.marquee-content li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  flex-shrink: 0;
+  width: var(--marquee-element-width);
+  max-height: 100%;
+  font-size: 55px;
+  white-space: nowrap;
+}
+
+.marquee-content li img {
+  width: 100%;
+  /* height: 100%; */
+  border: 2px solid #eee;
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+  :root {
+    --marquee-width: 100vw;
+    --marquee-height: 16vh;
+    --marquee-elements-displayed: 3;
+  }
+  .marquee:before,
+  .marquee:after {
+    width: 5rem;
+  }
+}
